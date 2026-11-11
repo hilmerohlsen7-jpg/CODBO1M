@@ -1,0 +1,23 @@
+{
+  "name": "vel-gg-zombies",
+  "version": "1.0.0",
+  "description": "Mobile WebView wrapper for vel.gg BO1 Zombies with on-screen controller",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Static www/ — no build step needed'",
+    "cap:sync": "npx cap sync",
+    "cap:android": "npx cap open android",
+    "cap:ios": "npx cap open ios",
+    "cap:add:android": "npx cap add android",
+    "cap:add:ios": "npx cap add ios"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/ios": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0",
+    "typescript": "^5.0.0"
+  }
+}
